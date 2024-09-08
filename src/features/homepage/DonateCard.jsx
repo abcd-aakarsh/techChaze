@@ -1,5 +1,5 @@
 import React from "react";
-import donateg from "../../assets/donateg.png";
+
 const DonateCard = ({ img, bordercolor, btncolor }) => {
   return (
     <div className="border-6   rounded-[20px]" style={bordercolor}>
