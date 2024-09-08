@@ -1,5 +1,5 @@
 import DonateCard from "./DonateCard";
-import { donateg } from "../../assets/donateg.png";
+import { donateg } from "../../assets/Donateg.png";
 import { clothes } from "../../assets/clothes.png";
 import { food } from "../../assets/food.png";
 
