@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../ui/Header";
 import HeroSection from "../features/homepage/HeroSection";
 import StatisticsSection from "../features/homepage/StatisticsSection";
-import CausesSection from "../features/homepage/cAUSESsECTION.JSX";
+import CausesSection from "../features/homepage/CausesSection.jsx";
 import DonateSection from "../features/homepage/DonateSection";
 
 const HomePage = () => {
