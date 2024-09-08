@@ -1,8 +1,8 @@
 import React from "react";
 import CausesCard from "./CausesCard";
-import { p1 } from "../../assets/p1.png";
-import { p2 } from "../../assets/p2.png";
-import { p3 } from "../../assets/p3.png";
+import p1 from "../../assets/p1.png";
+import p2 from "../../assets/p2.png";
+import p3 from "../../assets/p3.png";
 const CausesSection = () => {
   return (
     <div className="py-[20px] px-[20px] lg:p-[110px] lg:pt-0 w-full bg-hero-color">
