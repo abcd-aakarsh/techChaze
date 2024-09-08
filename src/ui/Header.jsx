@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="flex items-center">
         <ul
           className="hidden md:flex gap-10 text-text-color font-normal pt-2
- text-lg font-montserrat leading-5 ml-14"
+ text-lg font-montserrat leading-5 ml-20"
         >
           <li>
             <a>Home</a>

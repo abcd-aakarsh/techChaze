@@ -5,7 +5,8 @@ export default {
     borderWidth: {
       DEFAULT: "1px",
       0: "0",
-      1.5: "1.5px",
+      1.5: "2px",
+      6: "6px",
     },
     extend: {
       colors: {
@@ -14,6 +15,13 @@ export default {
         "button-color": "#399866",
         "button-border-color": "#16442C",
         "circle-color": "#FDC137",
+        "sub-color": "#5F5F5F",
+        "bar-color": "#E0E0E0",
+        "bar-red": "#FF1414",
+        "bar-green": "#0E9602",
+        "bar-yellow": "#FB983D",
+        "donate-button-border": "#AF8523",
+        "donate-border-sub": "#F8F6E4",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans"],
