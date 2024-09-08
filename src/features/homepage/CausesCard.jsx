@@ -1,5 +1,4 @@
 import React from "react";
-import p1 from "../../assets/p1.png";
 
 const CausesCard = ({ img, title, para, amount, bar }) => {
   return (

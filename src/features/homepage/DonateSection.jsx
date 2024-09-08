@@ -1,7 +1,7 @@
 import DonateCard from "./DonateCard";
-import donateg from "../../assets/donateg.png";
-import clothes from "../../assets/clothes.png";
-import food from "../../assets/food.png";
+import { donateg } from "../../assets/donateg.png";
+import { clothes } from "../../assets/clothes.png";
+import { food } from "../../assets/food.png";
 
 const DonateSection = () => {
   return (
