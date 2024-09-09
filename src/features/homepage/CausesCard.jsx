@@ -2,7 +2,7 @@ import React from "react";
 
 const CausesCard = ({ img, title, para, amount, bar }) => {
   return (
-    <div className="w-[350px] flex flex-col items-center rounded-[10px]">
+    <div className="w-[350px] flex flex-col items-center lg:scale-75 xl:scale-100 rounded-[10px]">
       <img src={img} alt="cause" className="w-[350px] h-[278px]" />
       <div className="bg-white p-5 rounded-b-[10px] shadow-md">
         <div className="pb-4">

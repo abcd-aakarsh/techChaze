@@ -26,6 +26,7 @@ export default {
       fontFamily: {
         montserrat: ["Montserrat", "sans"],
         manuale: ["Manuale", "serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

@@ -4,6 +4,7 @@ import HeroSection from "../features/homepage/HeroSection";
 import StatisticsSection from "../features/homepage/StatisticsSection";
 import CausesSection from "../features/homepage/CausesSection.jsx";
 import DonateSection from "../features/homepage/DonateSection";
+import Footer from "../ui/Footer.jsx";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <div className="max-w-[1440px] mx-auto">
         <CausesSection />
         <DonateSection />
+        <Footer />
       </div>
     </>
   );
