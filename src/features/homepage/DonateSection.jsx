@@ -2,6 +2,7 @@ import DonateCard from "./DonateCard";
 import donateg from "../../assets/Donateg.png";
 import clothes from "../../assets/Clothes.png";
 import food from "../../assets/food.png";
+import DonateCardSub from "./DonateCardSub";
 
 const DonateSection = () => {
   return (
@@ -10,14 +11,12 @@ const DonateSection = () => {
         Making a diffrence for those who face a hardship
       </h3>
       <div className="flex flex-col gap-5 md:flex-row lg:px-28 lg:gap-11 ">
-        <DonateCard
+        <DonateCardSub
           img={donateg}
           heading={"Donate Money"}
           title={
             "Your small help can change someone else life and can make someone happy and u will have a good deed added in your cart"
           }
-          bordercolor={{ borderColor: "#399866" }}
-          btncolor={{ backgroundColor: "#F8F6E4", borderColor: "#D0D0D0" }}
         />
         <DonateCard
           img={clothes}
@@ -27,14 +26,12 @@ const DonateSection = () => {
           }
           bordercolor={{ borderColor: "#399866" }}
         />
-        <DonateCard
+        <DonateCardSub
           img={food}
           heading={"Donate Food"}
           title={
             "Your small help can change someone else life and can make someone happy and u will have a good deed added in your cart"
           }
-          bordercolor={{ borderColor: "#399866" }}
-          btncolor={{ backgroundColor: "#F8F6E4", borderColor: "#D0D0D0" }}
         />
       </div>
     </div>

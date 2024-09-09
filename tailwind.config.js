@@ -22,6 +22,7 @@ export default {
         "bar-yellow": "#FB983D",
         "donate-button-border": "#AF8523",
         "donate-border-sub": "#F8F6E4",
+        "button-sub-color": "#D0D0D0",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans"],

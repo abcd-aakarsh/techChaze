@@ -8,7 +8,7 @@ const StatisticsSection = () => {
   return (
     <>
       <div className="p-5 relative flex items-center max-w-[1178px] mx-auto justify-center min-h-[600px]">
-        <div className="bg-button-color w-full p-8  md:p-16 rounded-[40px] ">
+        <div className="bg-button-color w-full p-8 z-30  md:p-16 rounded-[40px] ">
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-4 md:grid-cols-4 justify-center p-2">
             <div className=" flex items-center justify-center flex-col text-center">
               <img src={npo} className="w-[70px] h-[70px]" />
@@ -61,7 +61,7 @@ const StatisticsSection = () => {
         </div>
       </div>
 
-      <div className="bg-white absolute bottom-0 sm:bottom-[80px] md:bottom-[150px] lg:bottom-[115px] -z-20 h-[330px] sm:h-[210px] md:h-[180px] w-full"></div>
+      <div className="bg-white absolute bottom-0 sm:bottom-[80px] md:bottom-[150px] lg:bottom-[115px] z-20 h-[330px] sm:h-[210px] md:h-[180px] w-full"></div>
     </>
   );
 };

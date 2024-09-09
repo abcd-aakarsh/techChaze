@@ -14,7 +14,7 @@ const DonateCard = ({ img, bordercolor, btncolor, title, heading }) => {
         </p>
         <div className="  text-center  ">
           <button
-            className="py-[20px] font-montserrat font-medium text-base px-[30px] !bg-circle-color border-r-1.5 border-b-1.5 rounded-[30px] hover:shadow-[6px_6px_5px_0px_#a1a1a1] transition-all delay-75 !border-donate-button-border "
+            className="py-[18px] font-montserrat font-medium text-base px-[32px] !bg-circle-color border-r-1.5 border-b-1.5 rounded-[35px] hover:shadow-[6px_6px_5px_0px_#a1a1a1] transition-all duration-300 !border-donate-button-border "
             style={btncolor}
           >
             Donate Now

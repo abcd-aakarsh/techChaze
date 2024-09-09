@@ -2,8 +2,8 @@ import React from "react";
 
 const CausesCard = ({ img, title, para, amount, bar }) => {
   return (
-    <div className="w-[350px] flex flex-col items-center lg:scale-75 xl:scale-100 rounded-[10px]">
-      <img src={img} alt="cause" className="w-[350px] h-[278px]" />
+    <div className="max-w-[350px] flex flex-col items-center lg:scale-75 xl:scale-100 rounded-[10px]">
+      <img src={img} alt="cause" className="w-full h-[278px]" />
       <div className="bg-white p-5 rounded-b-[10px] shadow-md">
         <div className="pb-4">
           <h4 className="font-manuale font-semibold text-lg leading-snug pb-2">
@@ -17,7 +17,7 @@ const CausesCard = ({ img, title, para, amount, bar }) => {
           </p>
           <p className="text-sub-color text-sm">Donated till Now</p>
         </div>
-        <div className="w-[294px] bg-bar-color rounded-[70px] h-[15px] pr-1">
+        <div className="w-full bg-bar-color rounded-[70px] h-[15px] pr-1">
           <div className=" h-[15px] rounded-[70px]" style={bar}></div>
         </div>
         {/* <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
